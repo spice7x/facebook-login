@@ -1,0 +1,98 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #F0F2F5;
+}
+
+.facebook-logo img{
+	margin-right: 200px;
+	margin-left: 200px;
+	margin-top: 200px;
+
+}
+
+
+
+.facebook-h2{
+	width: 600px;
+	height: 100px;
+	word-wrap: break-word;
+	margin-left: 200px;
+	font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+	font-size: 18px;
+}
+
+.login-screen{
+	margin-top: 130px;
+	box-shadow: 10px 10px 5px #ccc;
+	text-align: center;
+	border-radius: 20px;
+	margin-right: 200px;
+	display: inline-block;
+	float: right;
+	width: 400px;
+	height: 350px;
+	background-color: #fff;
+}
+
+.login-screen input{
+		margin-top: 13px;
+		width: 370px;
+		height: 55px;
+		border-radius: 10px;
+		outline: 0;
+		border: 1px solid #ccc;
+}
+
+.login-screen input[type=email],
+input[type=password]{
+	padding-left: 20px;
+	font-size: 17px;
+}
+
+.login-screen input[type=submit]{
+	font-size: 20px;
+	color: #fff;
+	background-color: #1877f2;
+	margin-bottom: 17px;
+
+}
+
+.login-screen a{
+	color: #1877f2;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.bordas{
+	border-bottom: 1px solid #ccc;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.botao input[type=submit]{
+	background-color: #42b72a;
+	width: 163px;
+	height: 48px;
+	
+}
+
+
+@font-face{
+	font-family: "Fonte_facebook";
+	src: url('../fonts/Lato-Bold.ttf');
+}
+
+@media screen and (max-width: 768px){
+		.login-screen{
+			display: flex;
+			align-items: ;
+			justify-content: right;
+	float: right;
+}
+
+}
